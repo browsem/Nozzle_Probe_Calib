@@ -9,9 +9,9 @@ To install link the files to klippers folders
 
 cd PathToWhereTheFilesAre
 
-ln -sf "./z_calibration.py" "${HOME}/klipper/klippy/extras/z_calibration.py"
+cp ./NOZZLE_PROBE_CALIBRATE.py" "~/klipper/klippy/extras/NOZZLE_PROBE_CALIBRATE.py"
 
-ln -sf ".nozzle_probe_calibrate.cfg" "${HOME}/klipper/nozzle_probe_calibrate.cfg"
+cp  ".nozzle_probe_calibrate.cfg" "~/printer_data/config/nozzle_probe_calibrate.cfg"
 
 
 add 
