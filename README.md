@@ -15,6 +15,8 @@ ln -sf ".nozzle_probe_calibrate.cfg" "${HOME}/klipper/nozzle_probe_calibrate.cfg
 
 
 add 
+
+
 include nozzle_probe_calibrate.cfg
 
 to printer.cfg
